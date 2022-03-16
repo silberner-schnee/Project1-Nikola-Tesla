@@ -1,5 +1,15 @@
+body {
+    font-family: garamond, serif; 
+}
+
 */ headings & logo */
+
 #logo {
     float: left
-    font-size: 200%;
+    font-size: 215%;
+}
+
+#nav-menu {
+    letter-spacing: 2px;
+    font-size: 105%;
 }
