@@ -1,7 +1,7 @@
 /* font imported from adobe fonts */
 @import url("https://use.typekit.net/djv5dul.css");
 
-/* set box-model measurements to 0 */ 
+/* set padding, margins, and borders to 0 */ 
 *{
     margin: 0;
     padding: 0;
@@ -12,10 +12,11 @@ body {
     font-family: adobe-garamond-pro, serif; 
     font-weight 400;
     font-style: normal;
-    letter-spacing: 2px; 
+    letter-spacing: 1px; 
+    color: #151515;
 }
 
-*/ headings & logo */
+/* logo & navigation menu */
 
 #logo {
     float: left
@@ -23,7 +24,18 @@ body {
 }
 
 #nav-menu {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-decoration: none; 
     font-size: 105%;
+}
+
+/* headers */ 
+
+h1, h2 {
+    font-family: cormorant-garamond, serif; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    font-weight: 600;
+    font-style: normal; 
+    color: #010101;
 }
