@@ -2,7 +2,7 @@
 @import url("https://use.typekit.net/djv5dul.css");
 
 /* set padding, margins, and borders to 0 */ 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none; 
@@ -12,21 +12,7 @@ body {
     font-family: adobe-garamond-pro, serif; 
     font-weight 400;
     font-style: normal;
-    letter-spacing: 1px; 
     color: #151515;
-}
-
-/* logo & navigation menu */
-
-#logo {
-    float: left
-    font-size: 215%;
-}
-
-#nav-menu {
-    letter-spacing: 1px;
-    text-decoration: none; 
-    font-size: 105%;
 }
 
 /* headers */ 
@@ -38,4 +24,59 @@ h1, h2 {
     font-weight: 600;
     font-style: normal; 
     color: #010101;
+    text-decoration: none; 
 }
+
+/* logo & navigation menu */
+
+#logo {
+    float: left; 
+    font-size: 250%;
+}
+
+#nav-menu {
+    letter-spacing: 2px;
+    font-size: 105%;
+    color: #151515;
+}
+
+/* match line height between nav-menu & logo */
+
+#logo, #nav-menu {
+    line-height: 80px; 
+}
+
+/* move nav menu to the upper-right, and space them out */ 
+
+#nav-menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px; 
+}
+
+/* remove underline for linked home page elements */ 
+
+header a {
+    text-decoration: none; 
+}
+
+#nav-menu a {
+    text-decoration: none; 
+    
+}
+
+/* create highlight effect on navigation pages when hovered over */
+
+#nav-menu a:hover {
+    color: brown; 
+}
+
+/* underline currently active webpage to remind user of their current location */
+
+.currentpg {
+    border-bottom: 2px solid brown; 
+}
+
+
+
+
