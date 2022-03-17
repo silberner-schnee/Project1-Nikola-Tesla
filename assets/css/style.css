@@ -78,5 +78,38 @@ header a {
 }
 
 
+/* create container for hero image & hide overflow */ 
+
+#home-img-container {
+    height: 832px;
+    width: 100%; 
+    overflow: hidden; 
+}
+
+/* create hero image for home page */
+
+#home-img {
+    height: 832px;
+    width: 50%; 
+    background: url("images/tesla-rectangle.webp") no-repeat; center center; 
+
+
+/* animation zoom effect speed & hold zoom */
+animation-name: tesla-zoom; 
+animation-duration: 5s; 
+animation-fill-mode: forwards; 
+
+}
+
+/* creates zoom effect for hero image */ 
+@keyframes tesla-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
+
 
 
